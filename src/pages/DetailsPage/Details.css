@@ -1,0 +1,34 @@
+.video_el{
+	width: 100%;
+	height:550px;
+}
+
+.video__related__contents{
+	height: 85vh;
+	overflow-y: scroll;
+}
+
+.video__related__contents .main__poster__card{
+	width: 100%;
+}
+
+.title__center{
+	display: flex;
+	justify-content: center;
+}
+
+.channel__center{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.desc__info{
+	text-align: justify;
+}
+
+@media(max-width: 500px){
+	.video_el{
+		height: 300px;
+	}
+}

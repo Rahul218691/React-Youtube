@@ -1,0 +1,5 @@
+.home__poster__card{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}

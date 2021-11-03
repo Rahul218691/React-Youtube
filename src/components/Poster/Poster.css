@@ -1,0 +1,36 @@
+.main__poster__card{
+	display: flex;
+	flex-direction: column;
+	background-color: #282c34;
+	border-radius: 10px;
+	font-family: "Montserrat", sans-serif;
+	padding: 5px;
+	margin: 5px 3px;
+	width: 300px;
+	position: relative;
+	cursor: pointer;
+}
+
+.main__poster__card:hover{
+	background-color: #fff;
+	color: black;
+}
+
+.main__poster__card img{
+	object-fit: cover;
+}
+
+.post__subtitle{
+	display: flex;
+	justify-content: space-between;
+}
+
+.post__title{
+	text-align: center;
+}
+
+@media (max-width: 550px) {
+  .main__poster__card {
+    width: 100%;
+  }
+}

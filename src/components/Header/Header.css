@@ -1,0 +1,42 @@
+.header{
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	background-color: #39445a;
+  	color: white;
+  	z-index: 100;	
+  	align-items: center;	
+}
+
+.header__image{
+	width: 6rem;
+	cursor: pointer;
+	padding: .5rem;
+}
+
+.user__icon{
+	padding: .5rem;
+}
+
+.icon__user{
+	font-size: 2rem;
+	cursor: pointer;
+	color: white;
+}
+
+.header__search{
+	display: flex;
+	margin: 15px 0;	
+}
+
+.header__search input{
+	width: 100%;
+	outline: none;
+	border: none;
+	background-color: #2d313a;
+}
+
+.header__search button{
+	background-color: #ddd;
+}
